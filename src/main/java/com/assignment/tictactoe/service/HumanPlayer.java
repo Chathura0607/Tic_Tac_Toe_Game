@@ -8,6 +8,6 @@ public class HumanPlayer extends Player {
 
     @Override
     public void move(int row, int col) {
-
+        board.updateMove(row, col, Piece.X);
     }
 }
